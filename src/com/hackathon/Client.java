@@ -9,11 +9,12 @@ public class Client {
         Graphics graphics = new Graphics();
         String username="";
         String message="";
+        String full="";
         Boolean exit=false;
         username=input.nextLine(); 
         while(true){
-            message=
-            message=username+"";
+            message=input.nextLine();
+            full=username+message;
         }
     }
 }
