@@ -26,5 +26,4 @@ class Graphics {
         //frame.setVisible(true);
 
     }
-}//hi
-//hellomy name is rishi shshhs
+}
