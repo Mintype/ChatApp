@@ -19,11 +19,12 @@ public class Client {
 }
 class Graphics {
     Graphics(){
-        JFrame frame = new JFrame("Game");
+        JFrame frame = new JFrame("ChatApp");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(900, 500);
         frame.setLayout(null);
-        frame.setVisible(true);
-        System.out.print("hi");
+        //frame.setVisible(true);
+
     }
-}
+}//hi
+//hellomy name is rishi shshhs
