@@ -5,6 +5,10 @@ import javax.swing.*;
 
 public class Client {
     public static void main(String []args){
+
+        int port = 10334;
+
+
         System.out.println("hi");
         Scanner input=new Scanner (System.in);
         Graphics graphics = new Graphics();
