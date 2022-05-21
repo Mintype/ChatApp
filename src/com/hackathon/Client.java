@@ -16,7 +16,6 @@ public class Client {
         System.out.println("Now using host = " + host + ", portNumber = " + portNumber);
 
         System.out.println("Welcome To ChatApp");
-        Scanner input=new Scanner (System.in);
         Graphics graphics = new Graphics();
         String username="";
         String message="";
