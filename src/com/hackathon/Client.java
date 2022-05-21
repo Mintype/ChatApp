@@ -16,4 +16,4 @@ class Graphics {
         //frame.setVisible(true);
 
     }
-}
+}//hi
