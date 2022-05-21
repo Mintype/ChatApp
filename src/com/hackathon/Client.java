@@ -13,6 +13,7 @@ public class Client implements Runnable {
     private static DataInputStream is = null;
     private static BufferedReader inputLine = null;
     private static boolean closed = false;
+    private static String username="";
 
     public static void main(String []args) {
 
@@ -24,7 +25,6 @@ public class Client implements Runnable {
         System.out.println("Welcome To ChatApp");
         Scanner input=new Scanner (System.in);
         Graphics graphics = new Graphics();
-        String username="";
         String message="";
         String full="";
         Boolean exit=false;
@@ -62,7 +62,8 @@ public class Client implements Runnable {
         String responseLine;
         try {
             while ((responseLine = is.readLine()) != null) {
-                System.out.println(responseLine);
+                if(!responseLine.contains("[" +username + "]"))
+                    System.out.println(responseLine);
             }
             closed = true;
         } catch (IOException e) {
