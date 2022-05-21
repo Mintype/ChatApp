@@ -9,6 +9,14 @@ public class Client {
         Scanner input =new Scanner(System.in);
         System.out.println("Enter Your Username: "); 
         String usernameEnter = input.nextLine(); 
+
+        int portNumber = 10334;
+        String host = "localhost";
+        
+        System.out.println("Now using host = " + host + ", portNumber = " + portNumber);
+
+        System.out.println("Welcome To ChatApp");
+        Scanner input=new Scanner (System.in);
         Graphics graphics = new Graphics();
         String username="";
         String message="";
@@ -32,5 +40,4 @@ class Graphics {
         //frame.setVisible(true);
 
     }
-}//hi
-//hellomy name is rishi shshhs
+}
