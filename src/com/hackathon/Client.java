@@ -5,6 +5,7 @@ import javax.swing.*;
 
 public class Client {
     public static void main(String []args){
+        System.out.println("hi");
         Scanner input=new Scanner (System.in);
         Graphics graphics = new Graphics();
         String username="";
@@ -14,7 +15,9 @@ public class Client {
         username=input.nextLine(); 
         while(true){
             message=input.nextLine();
-            full=username+message;
+            full=username+": "+message;
+            System.out.println(message);
+            
         }
     }
 }
