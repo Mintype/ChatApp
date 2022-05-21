@@ -6,7 +6,9 @@ import javax.swing.*;
 public class Client {
     public static void main(String []args){
         System.out.println("hi");
-        Scanner input=new Scanner (System.in);
+        Scanner input =new Scanner(System.in);
+        System.out.println("Enter Your Username: "); 
+        String usernameEnter = input.nextLine(); 
         Graphics graphics = new Graphics();
         String username="";
         String message="";
