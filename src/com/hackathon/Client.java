@@ -17,7 +17,7 @@ public class Client implements Runnable {
 
     public static void main(String []args) {
 
-        int portNumber = 10334;
+        int portNumber = 10334; //port
         String host = "localhost";
 
         System.out.println("Now using host = " + host + ", portNumber = " + portNumber);
