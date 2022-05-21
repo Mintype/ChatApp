@@ -6,10 +6,12 @@ import javax.swing.*;
 public class Client {
     public static void main(String []args){
 
-        int port = 10334;
+        int portNumber = 10334;
+        String host = "localhost";
+        
+        System.out.println("Now using host = " + host + ", portNumber = " + portNumber);
 
-
-        System.out.println("hi");
+        System.out.println("Welcome To ChatApp");
         Scanner input=new Scanner (System.in);
         Graphics graphics = new Graphics();
         String username="";
