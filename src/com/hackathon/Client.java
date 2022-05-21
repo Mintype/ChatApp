@@ -4,6 +4,11 @@ import javax.swing.*;
 
 public class Client {
     public static void main(String []args){
+        Graphics graphics = new Graphics();
+    }
+}
+class Graphics {
+    Graphics(){
         JFrame frame = new JFrame("Game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(900, 500);
