@@ -1,4 +1,4 @@
-# hackign-thing-real
+# MessageApp
 ## Inspiration
 We wanted to create our way to communicate with friends and family. Nowadays, texting has become a crucial method of communication.
 
